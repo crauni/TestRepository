@@ -15,7 +15,7 @@ namespace WcfServiceLibrary2
         string GetData(int value);
 
         [OperationContract]
-        double PromedioPracticas(int p1, int p2, int p3, int p4);
+        double PromedioPracticas(int p1, int p2, int p3, int p4, int p5);
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
